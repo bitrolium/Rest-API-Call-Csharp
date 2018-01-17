@@ -9,7 +9,7 @@ IRestResponse response = client.Execute(request);
 
 Create Account:
 
-var client = new RestClient("https://bitrolium.net/api/app/createaccount?PassPhrase=******");
+var client = new RestClient("https://bitrolium.net/api/app/createaccount/PassPhrase=******");
 var request = new RestRequest(Method.POST);
 request.AddHeader("Postman-Token", "50cf81c7-f2cb-b18c-ad3e-be730edb6161");
 request.AddHeader("Cache-Control", "no-cache");
